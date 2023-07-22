@@ -189,3 +189,16 @@
         height: 80vh;
     }
 }
+
+/* Blog */
+.blog-header a p{
+    color: black;
+}
+
+.blog-header ul li a{
+    color: black ;
+}
+
+.card-body h5{
+    color: #5468E7;
+}
