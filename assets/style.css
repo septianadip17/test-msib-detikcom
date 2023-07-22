@@ -1,0 +1,191 @@
+.header-font-style {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+.section-font-style h1 {
+    color: var(--dark-blue, #232340);
+    font-family: Lexend Deca;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.section-font-style p {
+    color: var(--dark-blue, #232340);
+    /* Paragraph/Desktop */
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+}
+
+.section-font-style a {
+    color: var(--soft-blue, #5468E7);
+    /* Link */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+    text-decoration-line: underline;
+}
+
+.background-image-class {
+    background-image: url(images/hero-img.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar a {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-custom {
+    background-color: #5468E7;
+    color: white;
+}
+
+.color-primary {
+    color: #5468E7;
+}
+
+.text-header {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.text-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.footer {
+    background-color: var(--dark-blue, #232340);
+}
+
+.footer h6 {
+    color: var(--soft-blue, #5468E7);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+}
+
+.footer p {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer p a {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.custom-form-control {
+    border-radius: 4px;
+    background-color: rgba(245, 245, 245, 0.24);
+    padding: 10px;
+    border-color: transparent;
+    color: white;
+}
+
+.custom-form-control::placeholder {
+    color: white;
+}
+
+/* CSS untuk ukuran layar kecil (sm) */
+@media (max-width: 767.98px) {
+    #section1 {
+        height: auto;
+        /* Atur tinggi elemen ke tinggi yang sesuai untuk ukuran layar kecil */
+    }
+
+    #padding-1 {
+        height: 10vh;
+    }
+
+    #image-1 {
+        height: auto;
+    }
+
+    #header-section {
+        margin-top: 20px;
+    }
+
+    #section2 .col-md-5 {
+        order: 2;
+    }
+
+    #section2 .col-md-6 {
+        order: 1;
+    }
+
+    #footer .col-md-6 {
+        flex-direction: column;
+    }
+
+}
+
+/* CSS untuk ukuran layar medium (md) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #section1 {
+        height: 100vh;
+        /* Atur tinggi elemen menjadi 100vh untuk ukuran layar medium (md) */
+    }
+
+    #padding-1 {
+        height: 10vh;
+    }
+
+}
+
+/* CSS untuk ukuran layar besar (lg) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #section1 {
+        height: 100vh;
+        /* Atur tinggi elemen menjadi 100vh untuk ukuran layar besar (xl) */
+    }
+
+    #padding-1 {
+        height: 10vh;
+    }
+
+    #image-1 {
+        height: 80vh;
+    }
+
+    #footer .col-md-4 {
+        flex-direction: column;
+    }
+}
+
+/* CSS untuk ukuran layar besar (xl) */
+@media (min-width: 1200px) {
+    #section1 {
+        height: 100vh;
+        /* Atur tinggi elemen menjadi 100vh untuk ukuran layar besar (xl) */
+    }
+
+    #padding-1 {
+        height: 10vh;
+    }
+
+    #image-1 {
+        height: 80vh;
+    }
+}
