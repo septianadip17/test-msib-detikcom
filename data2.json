@@ -1,0 +1,66 @@
+{
+    "blogCards": [{
+            "image-top": "assets/images/blog10.png",
+            "card-title": "Team Security Update",
+            "card-text": "Because we take security, privacy, and transparency very seriously, we are sharing the details of a recent incident.",
+            "card-image": "assets/images/Avatar10.png",
+            "avatar-name": "Bessie Cooper | December 24, 2022"
+        },
+        {
+            "image-top": "assets/images/blog11.png",
+            "card-title": "Everything you need to know about our first price change and plan updates",
+            "card-text": "Over the years, we have transformed TeamApp from a channel-based messaging app to your digital HQ, adding more value to empower our customers.",
+            "card-image": "assets/images/Avatar11.png",
+            "avatar-name": "Kristin Watson | December 10, 2022"
+        },
+        {
+            "image-top": "assets/images/blog12.png",
+            "card-title": "A new look and improved functionality for the TeamApp iPad",
+            "card-text": "Introducing ways to help you stay productive, organized and connected from anywhere.",
+            "card-image": "assets/images/Avatar12.png",
+            "avatar-name": "Wade Warren | November 4, 2022"
+        },
+        {
+            "image-top": "assets/images/blog13.png",
+            "card-title": "Leveling the playing field in the new hybrid workplace",
+            "card-text": "Data from the TeamForum reveals alarming discrepancies between who is and isn’t coming into the office.",
+            "card-image": "assets/images/Avatar13.png",
+            "avatar-name": "Floyd Miles | October 30, 2022"
+        },
+        {
+            "image-top": "assets/images/blog14.png",
+            "card-title": "Everything you need to know about our first price change and plan updates",
+            "card-text": "Over the years, we have transformed TeamApp from a channel-based messaging app to your digital HQ, adding more value to empower our customers",
+            "card-image": "assets/images/Avatar14.png",
+            "avatar-name": "Floyd Miles | October 30, 2022"
+        },
+        {
+            "image-top": "assets/images/blog15.png",
+            "card-title": "Everything you need to know about our first price change and plan updates",
+            "card-text": "Over the years, we have transformed TeamApp from a channel-based messaging app to your digital HQ, adding more value to empower our customers",
+            "card-image": "assets/images/Avatar15.png",
+            "avatar-name": "Cody Fisher | October 14, 2022"
+        },
+        {
+            "image-top": "assets/images/blog16.png",
+            "card-title": "Exploring better ways to work",
+            "card-text": "Reimagining work and management for a more flexible, productive and balanced future.",
+            "card-image": "assets/images/Avatar16.png",
+            "avatar-name": "Guy Hawkins | September 1, 2022"
+        },
+        {
+            "image-top": "assets/images/blog17.png",
+            "card-title": "Winning the war for talent in the post-pandemic world",
+            "card-text": "Future Forum study of 10,000 knowledge workers shows that 93% want flexibility in when and how they work; more than half are open to a job change.",
+            "card-image": "assets/images/Avatar17.png",
+            "avatar-name": "Mark Brooklyn | July 29, 2022"
+        },
+        {
+            "image-top": "assets/images/blog18.png",
+            "card-title": "Say hello to the updated TeamApp Forum",
+            "card-text": "Bring all the magic of the community right into TeamApp.",
+            "card-image": "assets/images/Avatar18.png",
+            "avatar-name": "Jane Cooper | July 11, 2022"
+        }
+    ]
+}

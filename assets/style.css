@@ -191,14 +191,24 @@
 }
 
 /* Blog */
-.blog-header a p{
+.blog-header a p {
     color: black;
 }
 
-.blog-header ul li a{
-    color: black ;
+.blog-header ul li a {
+    color: black;
 }
 
-.card-body h5{
+.card-body h5 {
     color: #5468E7;
+}
+
+.btn-blog {
+    background-color: #5468E780;
+    text-decoration: none;
+    color: black
+}
+
+.card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5)
 }

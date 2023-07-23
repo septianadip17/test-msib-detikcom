@@ -41,7 +41,8 @@
                             <a class="nav-link me-4" href="#">Log In</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-custom px-4" style="background-color: #5468E780; color: black;" type="submit">
+                            <button class="btn btn-custom px-4" style="background-color: #5468E780; color: black;"
+                                type="submit">
                                 Get Access
                             </button>
                         </li>
@@ -59,139 +60,74 @@
         <p>Open-source threaded team chat that helps teams stay productive and focused.</p>
     </div>
     <div class="container align-items-center mt-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="card-container">
+            <!-- Your card template -->
+            <div class="col" style="display: none;">
                 <div class="card h-100">
-                    <img src="assets/images/blog1.png" class="card-img-top" alt="...">
+                    <img class="card-img-top" id="image-top">
                     <div class="card-body">
-                        <h5 class="card-title">Data exported by Team Cloud organization</h5>
-                        <p class="card-text">An internal investigation recently uncovered a vulnerability (identified as CVE-2022-21706) in Zulip’s invitation links.</p>
+                        <h5 class="card-title" id="card-title"></h5>
+                        <p class="card-text" id="card-text"></p>
                     </div>
                     <div class="row mb-4 mt-4">
                         <div class="ms-3 mt-2">
-                            <img src="assets/images/Avatar1.png" alt="">
-                            <small class="avatar-name">Cameron Williamson | July 1, 2023</small>
+                            <img id="card-image">
+                            <small class="avatar-name" id="avatar-name"></small>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="assets/images/blog2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="assets/images/blog3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height action.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="assets/images/blog4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="assets/images/blog5.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="assets/images/blog6.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="assets/images/blog7.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="assets/images/blog8.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="assets/images/blog9.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <button class="btn btn-next btn-lg d-block mx-auto m-5" style="background-color: #5468E780; color: black;" type="submit">
-        Next
-    </button>
-    <!-- Blog Card End -->
+    <a href="blog1.html">
+        <button class="btn btn-blog btn-lg d-block mx-auto m-5">
+            Previous
+        </button>
+    </a>
+
+    <script>
+        // Function to fetch JSON data from a file
+        function fetchJSONFile(filename) {
+            return fetch(filename)
+                .then(response => response.json());
+        }
+
+        // Function to create and append card elements based on the data
+        function createCards(data) {
+            const cardContainer = document.getElementById('card-container');
+            const cardTemplate = cardContainer.querySelector('.col');
+
+            data.blogCards.forEach(cardData => {
+                const cardClone = cardTemplate.cloneNode(true);
+                cardClone.querySelector('#image-top').src = cardData['image-top'];
+                cardClone.querySelector('#card-title').textContent = cardData['card-title'];
+                cardClone.querySelector('#card-text').textContent = cardData['card-text'];
+                cardClone.querySelector('#card-image').src = cardData['card-image'];
+                cardClone.querySelector('#avatar-name').textContent = cardData['avatar-name'];
+
+                cardClone.style.display = 'block'; // Show the cloned card
+                cardContainer.appendChild(cardClone);
+            });
+        }
+
+        // Call the function to fetch data from data.json
+        fetchJSONFile('data2.json')
+            .then(data => {
+                createCards(data); // Use the data to create cards
+            })
+            .catch(error => console.error('Error fetching or parsing data:', error));
+    </script>
 
     <!-- Footer -->
     <footer class="footer text-lg-start" id="footer">
         <div class="container">
             <div class="row" style="padding-top: 60px;">
-
+                <div class="col-md-3 ">
+                    <a class="navbar-brand" style="font-size: 52px;  font-family: 'Lexend Deca', sans-serif; color: white;" href="">
+                        <p>team<span class="color-primary">.</span></p>
+                    </a>
+                    <p style="font-size: 14px;">Collaboration platform for mordern team </p>
+                </div>
                 <div class="col-md-6 d-flex">
                     <!-- Grid column -->
                     <div class="col-md-4 mb-4">
@@ -259,7 +195,8 @@
             <p class="m-0" style="font-size: 14px; padding-top: 80px; padding-bottom: 30px; ">© Copyright Team Inc.</p>
         </div>
     </footer>
-    <!-- Footer End -->
+    <!-- Footer -->
 
+</body>
 
 </html>
